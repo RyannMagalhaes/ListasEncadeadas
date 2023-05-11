@@ -24,6 +24,7 @@ public class CircularList<T extends String>{
         size++;
     }
 
+    //Métodos
     public void remove(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
